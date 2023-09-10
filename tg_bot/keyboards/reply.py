@@ -11,7 +11,7 @@ def create_start_kb():
 
                                        ],
                                        [
-                                           KeyboardButton("Де знаходиться магазин"),
+                                           KeyboardButton("Де знаходяться магазини"),
                                            KeyboardButton("Наші контакти")
                                        ]
                                    ])

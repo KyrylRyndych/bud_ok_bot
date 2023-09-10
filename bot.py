@@ -6,7 +6,7 @@ from aiogram.contrib.fsm_storage.redis import RedisStorage2
 from aiogram.contrib.middlewares.environment import EnvironmentMiddleware
 
 from tg_bot.config import load_config
-from tg_bot.handleres.start import register_start
+from tg_bot.handleres.users import register_start
 
 
 

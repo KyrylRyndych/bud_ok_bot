@@ -1,3 +1,4 @@
 aiogram>2.0,<3.0
 aioredis==2.0
-envirouns==8.0.0
+environs
+postgres
