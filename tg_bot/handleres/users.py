@@ -19,7 +19,13 @@ async def where_are_we_handler(message: types.message, bot: Bot):
 async def our_contacts_handler(message: types.message):
         await message.answer(OUR_CONTACTS_TEXT)
 
+
+async def in_development_handler(message: types.message):
+    await message.answer("Ця опція в розробці")
+
+
 def register_start(dp: Dispatcher):
     dp.register_message_handler(start_handler, commands=['start'])
     dp.register_message_handler(where_are_we_handler, Text("Де знаходяться магазини"))
     dp.register_message_handler(our_contacts_handler, Text("Наші контакти"))
+    dp.register_message_handler(in_development_handler, Text("Замовити доставку", "Мої доставки"))
