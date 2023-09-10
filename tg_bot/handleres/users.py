@@ -28,4 +28,5 @@ def register_start(dp: Dispatcher):
     dp.register_message_handler(start_handler, commands=['start'])
     dp.register_message_handler(where_are_we_handler, Text("Де знаходяться магазини"))
     dp.register_message_handler(our_contacts_handler, Text("Наші контакти"))
-    dp.register_message_handler(in_development_handler, Text("Замовити доставку", "Мої доставки"))
+    dp.register_message_handler(in_development_handler, Text(equals=["Замовити доставку","Мої доставки"]))
+    
