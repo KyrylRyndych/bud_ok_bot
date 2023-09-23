@@ -7,7 +7,7 @@ from aiogram.contrib.middlewares.environment import EnvironmentMiddleware
 
 from tg_bot.config import load_config
 from tg_bot.handleres.users import register_start
-
+5
 
 
 logger = logging.getLogger(__name__)
